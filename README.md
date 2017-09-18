@@ -16,8 +16,9 @@ implemented, such as collecting posts and comment.
 
 
 ## Screenshot:
-![simulator screen shot 2017 9 16 9 40 34](https://user-images.githubusercontent.com/9635252/30527270-1c94dac4-9bfd-11e7-8355-1cf8c39b597c.png )
-![simulator screen shot 2017 9 16 9 40 44](https://user-images.githubusercontent.com/9635252/30527272-1c9689c8-9bfd-11e7-9300-62b22a5d53ae.png)
-![simulator screen shot 2017 9 16 9 41 45](https://user-images.githubusercontent.com/9635252/30527271-1c966024-9bfd-11e7-9fa1-f9fd4bf46c0c.png)
+<img src="https://user-images.githubusercontent.com/9635252/30527270-1c94dac4-9bfd-11e7-8355-1cf8c39b597c.png" width="200">
+<img src="https://user-images.githubusercontent.com/9635252/30527272-1c9689c8-9bfd-11e7-9300-62b22a5d53ae.png" width="200">
+<img src="https://user-images.githubusercontent.com/9635252/30527271-1c966024-9bfd-11e7-9fa1-f9fd4bf46c0c.png" width="200">
+
 
 
