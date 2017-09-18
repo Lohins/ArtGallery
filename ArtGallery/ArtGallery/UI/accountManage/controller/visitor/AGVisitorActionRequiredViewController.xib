@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AGVisitorActionRequiredViewController" customModule="ArtGallery" customModuleProvider="target">
+            <connections>
+                <outlet property="contentLabel" destination="jxF-H2-4cJ" id="EBt-JI-I0L"/>
+                <outlet property="titleLabel" destination="l5q-yL-tHw" id="MM7-1E-KiF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YIj-7u-kIa">
+                    <rect key="frame" x="359" y="924" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="M61-Oh-672"/>
+                        <constraint firstAttribute="height" constant="50" id="pnp-AG-Ks7"/>
+                    </constraints>
+                    <connections>
+                        <action selector="backHomeAction:" destination="-1" eventType="touchUpInside" id="2G8-le-SzY"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="actionrequired" translatesAutoresizingMaskIntoConstraints="NO" id="acK-SU-Mxi">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign up Successful" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5q-yL-tHw">
+                    <rect key="frame" x="20" y="120" width="728" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="7wM-Jf-MQn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxF-H2-4cJ">
+                    <rect key="frame" x="25" y="165" width="718" height="180"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="N26-tm-EAH"/>
+                    </constraints>
+                    <string key="text">Thank you for your registration!  We have just send you a welcome email with an activate link to your email address.  Please activate your account and enjoy the artworks we prepared for you!  Warm regards, Ecomarte Team</string>
+                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="success" translatesAutoresizingMaskIntoConstraints="NO" id="T5K-Wu-LdO">
+                    <rect key="frame" x="359" y="50" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="DMe-wb-Ks6"/>
+                        <constraint firstAttribute="width" constant="50" id="OX0-yd-2wa"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="close_white" translatesAutoresizingMaskIntoConstraints="NO" id="dDH-MB-deg">
+                    <rect key="frame" x="359" y="924" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Jzi-Ml-sFd"/>
+                        <constraint firstAttribute="width" constant="50" id="tw9-37-sqt"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="YIj-7u-kIa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="52W-mP-c5F"/>
+                <constraint firstItem="T5K-Wu-LdO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="8q8-vl-kXO"/>
+                <constraint firstItem="l5q-yL-tHw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Wuh-2U-691"/>
+                <constraint firstAttribute="bottom" secondItem="dDH-MB-deg" secondAttribute="bottom" constant="50" id="XEj-Re-6JW"/>
+                <constraint firstAttribute="bottom" secondItem="YIj-7u-kIa" secondAttribute="bottom" constant="50" id="bPP-E1-00a"/>
+                <constraint firstAttribute="trailing" secondItem="l5q-yL-tHw" secondAttribute="trailing" constant="20" id="eXE-vY-Rlx"/>
+                <constraint firstAttribute="trailing" secondItem="acK-SU-Mxi" secondAttribute="trailing" id="h7b-zz-raV"/>
+                <constraint firstAttribute="bottom" secondItem="acK-SU-Mxi" secondAttribute="bottom" id="hxR-aN-SZz"/>
+                <constraint firstItem="jxF-H2-4cJ" firstAttribute="top" secondItem="l5q-yL-tHw" secondAttribute="bottom" constant="20" id="jYw-MI-TLJ"/>
+                <constraint firstItem="l5q-yL-tHw" firstAttribute="top" secondItem="T5K-Wu-LdO" secondAttribute="bottom" constant="20" id="kQo-FX-QzU"/>
+                <constraint firstItem="T5K-Wu-LdO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kzl-b6-bMI"/>
+                <constraint firstItem="jxF-H2-4cJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="oDl-Cb-jpu"/>
+                <constraint firstAttribute="trailing" secondItem="jxF-H2-4cJ" secondAttribute="trailing" constant="25" id="rb4-XS-mix"/>
+                <constraint firstItem="acK-SU-Mxi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sdn-ia-JaF"/>
+                <constraint firstItem="acK-SU-Mxi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="vCJ-Jy-4rL"/>
+                <constraint firstItem="dDH-MB-deg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vqA-Xx-Y4n"/>
+            </constraints>
+            <point key="canvasLocation" x="29.5" y="55.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="actionrequired" width="256" height="455"/>
+        <image name="close_white" width="256" height="256"/>
+        <image name="success" width="150" height="147"/>
+    </resources>
+</document>

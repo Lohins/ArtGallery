@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AGHasIconTextbox" customModule="ArtGallery" customModuleProvider="target">
+            <connections>
+                <outlet property="iconView" destination="HJA-s8-Wih" id="JFH-BD-bex"/>
+                <outlet property="textField" destination="mFm-zQ-vhx" id="tlQ-ox-Dw9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_textbox_bg_clear" translatesAutoresizingMaskIntoConstraints="NO" id="mLj-cL-e4H">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="55"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HJA-s8-Wih">
+                    <rect key="frame" x="15" y="15" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="6Hu-ZY-bud"/>
+                        <constraint firstAttribute="width" constant="25" id="WEh-Cm-Oh4"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mFm-zQ-vhx">
+                    <rect key="frame" x="57" y="12" width="227" height="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mFm-zQ-vhx" secondAttribute="bottom" constant="13" id="499-E5-XFc"/>
+                <constraint firstItem="mFm-zQ-vhx" firstAttribute="leading" secondItem="HJA-s8-Wih" secondAttribute="trailing" constant="17" id="7iX-lu-TVq"/>
+                <constraint firstAttribute="bottom" secondItem="mLj-cL-e4H" secondAttribute="bottom" id="7mC-2X-OdA"/>
+                <constraint firstAttribute="trailing" secondItem="mFm-zQ-vhx" secondAttribute="trailing" constant="16" id="97x-0Z-vEd"/>
+                <constraint firstItem="mFm-zQ-vhx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="KKd-Q4-Hby"/>
+                <constraint firstItem="HJA-s8-Wih" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="MJ0-R9-TFs"/>
+                <constraint firstItem="mLj-cL-e4H" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RYf-OV-Gqb"/>
+                <constraint firstAttribute="trailing" secondItem="mLj-cL-e4H" secondAttribute="trailing" id="bNg-FV-A50"/>
+                <constraint firstItem="HJA-s8-Wih" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="pfo-m0-jlb"/>
+                <constraint firstItem="mLj-cL-e4H" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="z7V-je-xPf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="82" y="-57"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="login_textbox_bg_clear" width="256" height="43"/>
+    </resources>
+</document>

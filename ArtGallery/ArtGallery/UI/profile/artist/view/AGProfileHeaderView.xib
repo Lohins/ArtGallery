@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AGProfileHeaderView" customModule="ArtGallery" customModuleProvider="target">
+            <connections>
+                <outlet property="iconImageView" destination="ZzQ-Yq-FUr" id="fDw-tT-6Ng"/>
+                <outlet property="nameLabel" destination="5fo-XR-RCB" id="uwP-kO-djf"/>
+                <outlet property="typeLabel" destination="cVL-yK-NfM" id="nxf-LB-iBH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="168"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVL-yK-NfM" userLabel="name">
+                    <rect key="frame" x="0.0" y="140" width="375" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="VJk-4X-3p6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="11"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fo-XR-RCB" userLabel="type">
+                    <rect key="frame" x="0.0" y="120" width="375" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="XRL-t3-KWC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_artist_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ZzQ-Yq-FUr">
+                    <rect key="frame" x="140" y="17" width="95" height="95"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ZzQ-Yq-FUr" secondAttribute="height" multiplier="1:1" id="fKX-tx-qrY"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.4392156862745098" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cVL-yK-NfM" firstAttribute="top" secondItem="5fo-XR-RCB" secondAttribute="bottom" id="3cH-jr-4Th"/>
+                <constraint firstItem="ZzQ-Yq-FUr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="17" id="Peo-zj-bR8"/>
+                <constraint firstAttribute="bottom" secondItem="cVL-yK-NfM" secondAttribute="bottom" constant="13" id="S8A-0g-mZA"/>
+                <constraint firstAttribute="trailing" secondItem="cVL-yK-NfM" secondAttribute="trailing" id="UII-a8-5JG"/>
+                <constraint firstAttribute="trailing" secondItem="5fo-XR-RCB" secondAttribute="trailing" id="Zvt-yr-nDo"/>
+                <constraint firstItem="5fo-XR-RCB" firstAttribute="top" secondItem="ZzQ-Yq-FUr" secondAttribute="bottom" constant="8" id="ews-RR-lt3"/>
+                <constraint firstItem="ZzQ-Yq-FUr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="nVN-xC-bPi"/>
+                <constraint firstItem="5fo-XR-RCB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="p8v-Xr-K75"/>
+                <constraint firstItem="cVL-yK-NfM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zt5-lv-BkD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="main_artist_icon" width="289" height="291"/>
+    </resources>
+</document>

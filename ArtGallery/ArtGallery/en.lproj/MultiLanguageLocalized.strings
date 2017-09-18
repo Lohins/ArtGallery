@@ -1,0 +1,183 @@
+/* 
+  MultiLanguageLocalized.strings
+  ArtGallery
+
+  Created by UBIELIFE on 2016-10-21.
+  Copyright © 2016 UBIELIFE Inc. All rights reserved.
+*/
+
+// common used
+"Cancel" = "Cancel";
+"Notice" = "Notice";
+"NetworkError" = "NetworkError";
+"UpdateFail" = "Fail to update.";
+"UpdateSuccess" = "Succeed to update.";
+"InvalidEmail" = "Invalid email address.";
+
+
+
+// Shared
+"posted" = "Posted ";
+"author" = "Author: ";
+
+// AGWelcomeViewController.swift
+"AGWelcomeViewController-Description" = "\"Art enables us to find ourselves and lose ourselves at the same time.\"";
+
+// AGHomeViewController.swift
+"AGHomeViewController-Description" = "Tell us who you are, an artist or a visitor?";
+"Home-SeeAround" = "See Around";
+
+// AGArtistLoginViewController.swift
+"AGArtistLoginViewController-NavTitle" = "I'm an Artist";
+"AGArtistLoginViewController-EmailAddress" = "Email Address";
+"AGArtistLoginViewController-Password" = "Password";
+"AGArtistLoginViewController-GetStarted" = "Get Started";
+"AGArtistLoginViewController-CreateAccount" = "Create Account";
+"AGArtistLoginViewController-ForgetPassword" = "Forget Password";
+"AGArtistLoginViewController-PWDMissing" = "Password is missing.";
+"AGArtistLoginViewController-EmailMissing" = "Email is missing.";
+"AGArtistLoginViewController-InvalidUOP" = "Invalid username or password.";
+"AGArtistLoginViewController-Inactive" = "Your account is not activated, Please activate it firstlt.";
+
+
+
+
+// AGVisitorLoginViewController.swift
+"AGVisitorLoginViewController-NavTitle" = "I'm a Visitor";
+"AGVisitorLoginViewController-EmailAddress" = "Email Address";
+"AGVisitorLoginViewController-Password" = "Password";
+"AGVisitorLoginViewController-GetStarted" = "Get Started";
+"AGVisitorLoginViewController-CreateAccount" = "Create Account";
+"AGVisitorLoginViewController-ForgetPassword" = "Forget Password";
+
+// AGArtistForgetPWDViewController.swift
+"AGArtistForgetPWDViewController-EmailAddress" = "Email Address";
+"AGArtistForgetPWDViewController-Forget" = "FORGET PASSWORD";
+"AGArtistForgetPWDViewController-Description" = "Please enter your registered email and we will send you a code to verify your identity. To reset your password, please enter the verify code and your new password.";
+"AGArtistForgetPWDViewController-RetrievePWD" = "Send Verification Code";
+"AGArtistForgetPWDViewController-verify" = "Received Verification Code";
+"AGArtistForgetPWDViewController-newpassword" = "New Password";
+"AGArtistForgetPWDViewController-reset" = "Reset Password";
+
+// AGArtistCreateViewController.swift
+"AGArtistCreateViewController-Section1Title" = "CREATE ARTIST ACCOUNT";
+"AGArtistCreateViewController-EmailAddress" = "Email Address";
+"AGArtistCreateViewController-ChoosePWD" = "Choose Password";
+"AGArtistCreateViewController-Section2Title" = "Personal Information";
+"AGArtistCreateViewController-CompleteName" = "Complete Name";
+"AGArtistCreateViewController-Age" = "Age";
+"AGArtistCreateViewController-Gender" = "Gender";
+"AGArtistCreateViewController-Category" = "Art Profession Category";
+"AGArtistCreateViewController-RepresentativeWork" = "Representative Work";
+"AGArtistCreateViewController-Website" = "Protfolio URL/Website";
+"AGArtistCreateViewController-Section3Title" = "Contact Information";
+"AGArtistCreateViewController-PhoneNum" = "Contact Number";
+"AGArtistCreateViewController-CompleteAddress" = "Complete Address";
+"AGArtistCreateViewController-Signup" = "Sign Up";
+"AGArtistCreateViewController-SignupFail" = "Sign Up Fail.";
+"AGArtistCreateViewController-Terms" = "Terms and Conditions";
+"AGArtistCreateViewController-Region" = "Region";
+"AGArtistCreateViewController-MissingValue" = "Some value is missing.";
+"AGArtistCreateViewController-ExistEmail" = "The email already exists. Please try anothor one.";
+
+
+// AGArtistActionRequiredVC.swift
+"AGArtistActionRequiredVC-Action" = "ACTION REQUIRED";
+"AGArtistActionRequiredVC-Description" = "Your profile was sent to our Review Panel for Identity Verification. After the review, you will be automatically redirected to our “Artist” section. For the mean time you can login as “Visitor” after you click the Verification Email that we sent to your provided email address. Thank You!";
+
+
+// AGArtistFieldSelctVC.swift
+"AGArtistFieldSelctVC-subject" = "SUBJECTS";
+"AGArtistFieldSelctVC-category" = "ART CATEGORIES";
+"AGArtistFieldSelctVC-random" = "Random";
+"AGArtistFieldSelctVC-continue" = "Continue";
+
+
+// AGLeftMenuViewController.swift
+"AGLeftMenuViewController-mainscreen" = "HOMEPAGE";
+"AGLeftMenuViewController-bookmark" = "BOOKMARKS";
+"AGLeftMenuViewController-profile" = "PROFILE";
+"AGLeftMenuViewController-settings" = "SETTINGS";
+"AGLeftMenuViewController-upload" = "UPLOAD NEW ARTWORK";
+"AGLeftMenuViewController-preference" = "PREFERENCE SETTINGS";
+"AGLeftMenuViewController-logout" = "LOGOUT";
+
+// AGArtistMainPageViewController.swift
+"AGArtistMainPageViewController-myworks" = "My Works";
+"AGArtistMainPageViewController-following" = "Following";
+"AGArtistMainPageViewController-explore" = "Explore";
+"AGArtistMainPageViewController-whatsnew" = "What's New";
+"AGArtistMainPageViewController-whatsnew-news" = "ART NEWS";
+"AGArtistMainPageViewController-whatsnew-exbs" = "EXHIBITIONS";
+"AGNewsView-button" = "Read More";
+"AGExhibitionView-button" = "View Exhibition";
+
+// AGEditWorkVC
+"AGEditWorkVC-NoticeSelectImage" = "Please select image for the work firstly.";
+"AGEditWorkVC-MissingValue" = "Please fill in the from.";
+"AGEditPhotoWorkVC-TooBig" = "The size of photo is larger than 10 MB, please select anothor photo.";
+"AGEditVideoWorkVC-TooBig" = "The size of video is larger than 50 MB, please select anothor video.";
+"AGEditPhotoWorkVC-Title" = "Update Photo Work";
+"AGEditVideoWorkVC-Title" = "Update Video Work";
+
+
+// AGUploadPhotoWorkVC.swift
+"AGUploadPhotoWorkVC-uploadphoto" = "UPLOAD PHOTO";
+"AGUploadPhotoWorkVC-uploadvideo" = "UPLOAD VIDEO";
+"AGUploadPhotoWorkVC-subject" = "Subject";
+"AGUploadPhotoWorkVC-title" = "Title";
+"AGUploadPhotoWorkVC-artcategory" = "Art Category";
+"AGUploadPhotoWorkVC-tags" = "Tags";
+"AGUploadPhotoWorkVC-description" = "Description";
+"AGUploadPhotoWorkVC-uploadartwork" = "Upload Artwork";
+"AGUploadPhotoWorkVC-url" = "Video URL";
+
+// AGUploadWorkTypeSelectionVC.swift
+"AGUploadWorkTypeSelectionVC-select" = "SELECT MEDIA TYPE";
+
+// 下拉刷新
+"TableHeaderRefresh-Idle" = "Pull down to refresh.";
+"TableHeaderRefresh-Pulling" = "Release to refresh.";
+"TableHeaderRefresh-Loading" = "Loading...";
+
+// 上拉加载
+"TableFooterRefresh-Idle" = "Drag up to load more.";
+"TableFooterRefresh-Pulling" = "Release to load.";
+"TableFooterRefresh-Loading" = "Loading...";
+
+// profile
+"AGArtistProfileVC-Profile" = "Profile";
+"AGArtistProfileVC-Name" = "Name";
+"AGArtistProfileVC-Category" = "Category";
+"AGArtistProfileVC-PhoneNumber" = "Phone Number";
+"AGArtistProfileVC-ContactAddress" = "Contact Address";
+"AGArtistProfileVC-RepresentativeWork" = "Representative Work";
+"AGArtistProfileVC-Email" = "Email";
+"AGArtistProfileVC-Website" = "Website";
+
+// AGSettingViewController.swift
+"AGSettingViewController-update" = "Update Setting";
+"AGSettingViewController-oldpwd" = "Old Password";
+"AGSettingViewController-newpwd" = "New Password";
+"AGSettingViewController-changepwd" = "Change Password";
+"AGSettingViewController-updatepwd" = "Update Password";
+
+"AGSettingViewController-Email" = "Email Address";
+"AGSettingViewController-Name" = "Name";
+"AGSettingViewController-Region" = "Region : ";
+"AGSettingViewController-NotYet" = "Not selected yet.";
+"AGSettingViewController-NoticeSelectImage" = "Please select image for the work firstly.";
+"AGSettingViewController-InputName" = "Please input your nickname.";
+"AGSettingViewController-SelectRegion" = "Please select your region.";
+"AGSettingViewController-SelectFrom" = "Select from";
+"AGSettingViewController-Camera" = "Camera";
+"AGSettingViewController-PhotoLibrary" = "Photo Library";
+
+// ArtGalleryAppCenter.swift
+"ArtGalleryAppCenter-NoticeLogin" = "Login by?";
+"ArtGalleryAppCenter-Artist" = "Artist";
+"ArtGalleryAppCenter-Visitor" = "Visitor";
+
+// AGArtistCommentItemView/swift
+"AGArtistCommentItemView-reply" = "reply";
+

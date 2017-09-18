@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'ArtGallery' do
+	pod "AFNetworking" , "~> 3.0.1"
+    pod 'SDWebImage', '~>3.8'
+    pod 'TTTAttributedLabel'
+    pod 'TPKeyboardAvoiding'
+    pod 'BlocksKit'
+    pod 'iOS-Slide-Menu'
+    pod 'HMSegmentedControl'
+    pod 'MJRefresh'
+
+#    pod 'MLeaksFinder'
+end

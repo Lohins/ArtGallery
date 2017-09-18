@@ -1,0 +1,184 @@
+/* 
+  MultiLanguageLocalized.strings
+  ArtGallery
+
+  Created by UBIELIFE on 2016-10-21.
+  Copyright © 2016 UBIELIFE Inc. All rights reserved.
+*/
+
+// common used
+"Cancel" = "取消";
+"Notice" = "提示";
+"NetworkError" = "网络请求出错";
+"UpdateFail" = "更新失败.";
+"UpdateSuccess" = "更新成功.";
+"InvalidEmail" = "无效的邮箱格式.";
+
+// Shared
+"posted" = "发表于 ";
+"author" = "作者: ";
+
+// AGWelcomeViewController.swift
+"AGWelcomeViewController-Description" = "\"艺术，让我们发现自我，同时也让我们留恋其中。\"";
+
+// AGHomeViewController.swift
+"AGHomeViewController-Description" = "你的身份是，艺术家 还是 普通人？";
+"Home-SeeAround" = "随便逛逛";
+
+
+// AGArtistLoginViewController.swift
+"AGArtistLoginViewController-NavTitle" = "我是一个艺术家";
+"AGArtistLoginViewController-EmailAddress" = "邮箱地址";
+"AGArtistLoginViewController-Password" = "密码";
+"AGArtistLoginViewController-GetStarted" = "开始";
+"AGArtistLoginViewController-CreateAccount" = "创建账号";
+"AGArtistLoginViewController-ForgetPassword" = "忘记密码";
+"AGArtistLoginViewController-PWDMissing" = "请填写密码";
+"AGArtistLoginViewController-EmailMissing" = "请填写邮箱";
+"AGArtistLoginViewController-InvalidUOP" = "无效的用户名或者密码.";
+"AGArtistLoginViewController-Inactive" = "您的艺术家账户尚未激活，请先激活您的账户。";
+
+
+// AGVisitorLoginViewController.swift
+"AGVisitorLoginViewController-NavTitle" = "我是一个普通用户";
+"AGVisitorLoginViewController-EmailAddress" = "邮箱地址";
+"AGVisitorLoginViewController-Password" = "密码";
+"AGVisitorLoginViewController-GetStarted" = "开始";
+"AGVisitorLoginViewController-CreateAccount" = "创建账号";
+"AGVisitorLoginViewController-ForgetPassword" = "忘记密码";
+
+
+// AGArtistForgetPWDViewController.swift
+"AGArtistForgetPWDViewController-EmailAddress" = "邮箱地址";
+"AGArtistForgetPWDViewController-Forget" = "忘记密码";
+"AGArtistForgetPWDViewController-Description" = "请输入你的邮箱地址，我们会发送验证码到您的邮箱以验证您的身份。正确输入收到的验证码以及新密码之后，我们会更新您的账户设置，您将可以马上用新密码登陆。";
+"AGArtistForgetPWDViewController-RetrievePWD" = "发送验证码";
+"AGArtistForgetPWDViewController-verify" = "在此输入验证码";
+"AGArtistForgetPWDViewController-newpassword" = "在此输入新密码";
+"AGArtistForgetPWDViewController-reset" = "重置密码";
+
+// AGArtistCreateViewController.swift
+"AGArtistCreateViewController-Section1Title" = "创建账户";
+"AGArtistCreateViewController-EmailAddress" = "邮箱地址";
+"AGArtistCreateViewController-ChoosePWD" = "创建密码";
+"AGArtistCreateViewController-Section2Title" = "个人信息";
+"AGArtistCreateViewController-CompleteName" = "个人姓名";
+"AGArtistCreateViewController-Age" = "年龄";
+"AGArtistCreateViewController-Gender" = "性别";
+"AGArtistCreateViewController-Category" = "艺术类别";
+"AGArtistCreateViewController-RepresentativeWork" = "代表作品";
+"AGArtistCreateViewController-Website" = "网站地址";
+"AGArtistCreateViewController-Section3Title" = "联系信息";
+"AGArtistCreateViewController-PhoneNum" = "联系电话";
+"AGArtistCreateViewController-CompleteAddress" = "联系地址";
+"AGArtistCreateViewController-Signup" = "注册";
+"AGArtistCreateViewController-SignupFail" = "注册失败";
+"AGArtistCreateViewController-Terms" = "相关条约";
+"AGArtistCreateViewController-Region" = "所属地区";
+"AGArtistCreateViewController-MissingValue" = "请完善个人信息.";
+"AGArtistCreateViewController-ExistEmail" = "邮箱已被注册，请尝试其他邮箱。";
+
+
+// AGArtistActionRequiredVC.swift
+"AGArtistActionRequiredVC-Action" = "要求";
+"AGArtistActionRequiredVC-Description" = "Your profile was sent to our Review Panel for Identity Verification. After the review, you will be automatically redirected to our “Artist” section. For the mean time you can login as “Visitor” after you click the Verification Email that we sent to your provided email address. Thank You!";
+
+
+// AGArtistFieldSelctVC.swift
+"AGArtistFieldSelctVC-subject" = "主题";
+"AGArtistFieldSelctVC-category" = "艺术类别";
+"AGArtistFieldSelctVC-random" = "随机";
+"AGArtistFieldSelctVC-continue" = "继续";
+
+
+// AGLeftMenuViewController.swift
+"AGLeftMenuViewController-mainscreen" = "主 界 面";
+"AGLeftMenuViewController-bookmark" =   "我的收藏";
+"AGLeftMenuViewController-profile" = "个人信息";
+"AGLeftMenuViewController-settings" = "个人设置";
+"AGLeftMenuViewController-upload" = "上传作品";
+"AGLeftMenuViewController-preference" = "偏好设置";
+"AGLeftMenuViewController-logout" = "登出";
+
+
+// AGArtistMainPageViewController.swift
+"AGArtistMainPageViewController-myworks" = "我的作品";
+"AGArtistMainPageViewController-following" = "我关注的";
+"AGArtistMainPageViewController-explore" = "发现艺术";
+"AGArtistMainPageViewController-whatsnew" = "前沿消息";
+"AGArtistMainPageViewController-whatsnew-news" = "艺术新闻";
+"AGArtistMainPageViewController-whatsnew-exbs" = "艺术展览";
+"AGNewsView-button" = "阅读全文";
+"AGExhibitionView-button" = "参观展览";
+
+// AGEditWorkVC
+"AGEditWorkVC-NoticeSelectImage" = "请先选择图片";
+"AGEditWorkVC-MissingValue" = "请先完善表格信息.";
+"AGEditPhotoWorkVC-TooBig" = "您选择的图片太大了（大于10MB），请选择其他图片.";
+"AGEditVideoWorkVC-TooBig" = "您选择的视频太大了（大于10MB），请选择其他视频.";
+"AGEditPhotoWorkVC-Title" = "更新图片作品";
+"AGEditVideoWorkVC-Title" = "更新视频作品";
+
+
+// AGUploadPhotoWorkVC.swift
+"AGUploadPhotoWorkVC-uploadphoto" = "上传图片作品";
+"AGUploadPhotoWorkVC-uploadvideo" = "上传视频作品";
+"AGUploadPhotoWorkVC-subject" = "主题";
+"AGUploadPhotoWorkVC-title" = "标题";
+"AGUploadPhotoWorkVC-artcategory" = "艺术类别";
+"AGUploadPhotoWorkVC-tags" = "标签";
+"AGUploadPhotoWorkVC-description" = "描述";
+"AGUploadPhotoWorkVC-uploadartwork" = "上传作品";
+"AGUploadPhotoWorkVC-url" = "视频链接";
+
+
+// AGUploadWorkTypeSelectionVC.swift
+"AGUploadWorkTypeSelectionVC-select" = "选择上传类型";
+
+// 下拉刷新
+"TableHeaderRefresh-Idle" = "下拉刷新";
+"TableHeaderRefresh-Pulling" = "松开加载";
+"TableHeaderRefresh-Loading" = "加载中...";
+
+
+// 上拉加载
+"TableFooterRefresh-Idle" = "上拉加载.";
+"TableFooterRefresh-Pulling" = "松开加载.";
+"TableFooterRefresh-Loading" = "加载中...";
+
+// profile
+"AGArtistProfileVC-Profile" = "简介";
+"AGArtistProfileVC-Name" = "名字";
+"AGArtistProfileVC-Email" = "注册邮箱";
+"AGArtistProfileVC-Category" = "类别";
+"AGArtistProfileVC-PhoneNumber" = "电话";
+"AGArtistProfileVC-ContactAddress" = "联系地址";
+"AGArtistProfileVC-RepresentativeWork" = "代表作品";
+"AGArtistProfileVC-Website" = "网址";
+
+
+// AGSettingViewController.swift
+"AGSettingViewController-update" = "更新设置";
+"AGSettingViewController-oldpwd" = "旧密码";
+"AGSettingViewController-newpwd" = "新密码";
+"AGSettingViewController-changepwd" = "修改密码";
+"AGSettingViewController-updatepwd" = "更改密码";
+
+"AGSettingViewController-Email" = "邮箱地址";
+"AGSettingViewController-Name" = "姓名";
+"AGSettingViewController-Region" = "区域 : ";
+"AGSettingViewController-NotYet" = "还未选择";
+"AGSettingViewController-NoticeSelectImage" = "请先选择图片.";
+"AGSettingViewController-InputName" = "请输入姓名.";
+"AGSettingViewController-SelectRegion" = "请选择区域.";
+"AGSettingViewController-SelectFrom" = "选择自";
+"AGSettingViewController-Camera" = "相机";
+"AGSettingViewController-PhotoLibrary" = "相册";
+
+// ArtGalleryAppCenter.swift
+"ArtGalleryAppCenter-NoticeLogin" = "请先登录";
+"ArtGalleryAppCenter-Artist" = "艺术家";
+"ArtGalleryAppCenter-Visitor" = "普通用户";
+
+// AGArtistCommentItemView/swift
+"AGArtistCommentItemView-reply" = "回复";

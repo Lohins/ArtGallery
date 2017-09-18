@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+        <array key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="AGArtistUserItemCell" customModule="ArtGallery" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="400" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yia-eI-vMH">
+                        <color key="backgroundColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="6St-nb-Aa9"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainpage_myworks_see" translatesAutoresizingMaskIntoConstraints="NO" id="oCg-Lx-i19">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="6U5-vw-gf6"/>
+                            <constraint firstAttribute="width" constant="39" id="mcA-Sl-kFn"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Davinci" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u52-jN-bCA">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="hLA-RP-H6E"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="13"/>
+                        <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bookmark_unfollow_icon" translatesAutoresizingMaskIntoConstraints="NO" id="P3P-J0-sTF">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="7HG-Rv-Cek"/>
+                            <constraint firstAttribute="width" constant="23" id="Fbm-lj-p03"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 Followers" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPN-eA-Edg">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="aaA-OV-IL7"/>
+                            <constraint firstAttribute="height" constant="23" id="lud-Rv-DQV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="11"/>
+                        <color key="textColor" red="0.94117647058823528" green="0.4392156862745098" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photographer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wp3-td-P10">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="ITn-BR-Wcj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEK-Iz-cCw">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="LcQ-v4-PXq"/>
+                            <constraint firstAttribute="width" constant="23" id="kCc-8R-JDQ"/>
+                        </constraints>
+                        <connections>
+                            <action selector="followAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="0mJ-5g-cjX"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CPN-eA-Edg" firstAttribute="leading" secondItem="JEK-Iz-cCw" secondAttribute="trailing" constant="8" id="1ZO-nz-KcM"/>
+                    <constraint firstItem="CPN-eA-Edg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="8MV-YK-Xnr"/>
+                    <constraint firstAttribute="trailing" secondItem="Yia-eI-vMH" secondAttribute="trailing" constant="23" id="9MF-Qd-fLh"/>
+                    <constraint firstItem="Yia-eI-vMH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="23" id="Bfq-Je-5dP"/>
+                    <constraint firstAttribute="bottom" secondItem="Yia-eI-vMH" secondAttribute="bottom" id="E7k-Tb-CAS"/>
+                    <constraint firstItem="u52-jN-bCA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="7" id="Hlg-fg-R6e"/>
+                    <constraint firstItem="Wp3-td-P10" firstAttribute="top" secondItem="u52-jN-bCA" secondAttribute="bottom" constant="3" id="IRW-mA-oVB"/>
+                    <constraint firstItem="P3P-J0-sTF" firstAttribute="leading" secondItem="Wp3-td-P10" secondAttribute="trailing" constant="19" id="JGZ-gR-juh"/>
+                    <constraint firstItem="Wp3-td-P10" firstAttribute="leading" secondItem="oCg-Lx-i19" secondAttribute="trailing" constant="17" id="RAO-Rn-kL5"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="CPN-eA-Edg" secondAttribute="trailing" constant="15" id="VRo-LV-6vv"/>
+                    <constraint firstItem="CPN-eA-Edg" firstAttribute="leading" secondItem="P3P-J0-sTF" secondAttribute="trailing" constant="8" id="XD3-p8-HMG"/>
+                    <constraint firstItem="oCg-Lx-i19" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="dEa-ra-KKY"/>
+                    <constraint firstItem="P3P-J0-sTF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="ep2-PB-57j"/>
+                    <constraint firstItem="P3P-J0-sTF" firstAttribute="leading" secondItem="u52-jN-bCA" secondAttribute="trailing" constant="19" id="gh5-cY-lTO"/>
+                    <constraint firstItem="JEK-Iz-cCw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="qVc-8G-PmT"/>
+                    <constraint firstItem="oCg-Lx-i19" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="rYw-I4-IXv"/>
+                    <constraint firstItem="u52-jN-bCA" firstAttribute="leading" secondItem="oCg-Lx-i19" secondAttribute="trailing" constant="17" id="wWT-4g-dlu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="followIcon" destination="P3P-J0-sTF" id="LaO-BV-3m4"/>
+                <outlet property="followInfoLabel" destination="CPN-eA-Edg" id="sM5-v4-ViW"/>
+                <outlet property="iconImageView" destination="oCg-Lx-i19" id="TDm-fS-WKA"/>
+                <outlet property="occupationLabel" destination="Wp3-td-P10" id="ikg-dz-Mci"/>
+                <outlet property="userNameLabel" destination="u52-jN-bCA" id="T20-Zb-4U1"/>
+            </connections>
+            <point key="canvasLocation" x="-527" y="-165"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bookmark_unfollow_icon" width="256" height="256"/>
+        <image name="mainpage_myworks_see" width="49" height="49"/>
+    </resources>
+</document>

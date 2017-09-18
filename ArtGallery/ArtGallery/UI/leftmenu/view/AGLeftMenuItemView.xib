@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AGLeftMenuItemView" customModule="ArtGallery" customModuleProvider="target">
+            <connections>
+                <outlet property="iconImageView" destination="gTd-uE-36m" id="rCQ-dr-vNR"/>
+                <outlet property="titleLabel" destination="NVP-gf-EUc" id="nWR-Ee-DQu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="38"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leftmenu_bookmark" translatesAutoresizingMaskIntoConstraints="NO" id="gTd-uE-36m">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="gTd-uE-36m" secondAttribute="height" multiplier="1:1" id="tWu-qb-qMk"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVP-gf-EUc">
+                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="NVP-gf-EUc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3VU-2j-BGc"/>
+                <constraint firstAttribute="bottom" secondItem="NVP-gf-EUc" secondAttribute="bottom" id="3ip-1P-mZQ"/>
+                <constraint firstAttribute="bottom" secondItem="gTd-uE-36m" secondAttribute="bottom" id="K7D-KL-h7a"/>
+                <constraint firstAttribute="trailing" secondItem="NVP-gf-EUc" secondAttribute="trailing" constant="10" id="coP-yj-dJ2"/>
+                <constraint firstItem="NVP-gf-EUc" firstAttribute="leading" secondItem="gTd-uE-36m" secondAttribute="trailing" constant="22" id="ey6-wR-8zK"/>
+                <constraint firstItem="gTd-uE-36m" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="35" id="lnA-rd-K2R"/>
+                <constraint firstItem="gTd-uE-36m" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yMK-2U-MjR"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-80" y="35"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="leftmenu_bookmark" width="63" height="64"/>
+    </resources>
+</document>
